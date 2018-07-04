@@ -122,7 +122,7 @@ section h2{
 /* SEC01 VISION
 ------------------------------------------------------------*/
 
-.aboutme{
+.links{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -201,6 +201,18 @@ section h2{
 #sec05 header{
 	display: none;
 }
+
+
+/* SEC06 LINKS
+------------------------------------------------------------*/
+#sec06 link
+{
+	padding-top: 50px;
+	text-align: center;
+}
+
+
+
 
 
 /* RESPONSIVE 設定
