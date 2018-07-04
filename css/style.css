@@ -111,17 +111,18 @@ section h2{
 	padding-bottom: 50px;
 }
 
-.col2 li{
+.col2 li
+{
 	display: inline-block;
 	width: 100%;
-  	margin: 20px 0 20px 0;
+  	margin: 10px 0 20px 0;
 }
 
 
 /* SEC01 VISION
 ------------------------------------------------------------*/
 
-.vision{
+.aboutme{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -182,15 +183,15 @@ section h2{
 	clear: left;
 	float: left;
 	display: block;
-	width: 30%;
-	margin-right: 10%;
+	width: 15%;
+	margin-right: 5%;
 	margin-bottom: 20px;
 	text-align: right;
 	line-height: 1.6em;
 }
 
 #sec05 dd{
-	width: 60%;
+	width: 75%;
 	float: left;
 	text-align: left;
 	margin-bottom: 15px;
@@ -199,22 +200,6 @@ section h2{
 
 #sec05 header{
 	display: none;
-}
-
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
 }
 
 
@@ -238,10 +223,10 @@ section h2{
 	body{
 		font-size:14px;
 	}
-	
+
   a#menu{
 		display:none;
-	}	
+	}
 
 	.panel{
 		display:block !important;
@@ -265,16 +250,16 @@ section h2{
 		font-size: 14px;
 		font-weight: 300;
 	}
-	
+
   #mainnav a{
 		color: #000;
 	}
-	
+
 	#mainnav.changeNav{
 		background: rgba(255,255,255,.9);
 		border-bottom: 1px solid #d1d1d1;
 	}
-	
+
 	#mainnav.changeNav li{
 		padding: 20px 10px;
 	}
@@ -297,7 +282,7 @@ section h2{
 		padding: 0 100px;
 		vertical-align: middle;
 	}
-	
+
 	/* SEC03 SERVICE MESSAGE STORY
 	-----------------*/
 	.col3{
@@ -312,13 +297,13 @@ section h2{
 		vertical-align: top;
 		text-align: left;
 	}
-	
+
 	/* SEC05 PROFILE
 	-----------------*/
 	#sec05{
 		padding-top: 120px;
 	}
-	
+
   #footer{
 		padding: 30px 10px 70px 0;
 	}
@@ -326,7 +311,7 @@ section h2{
 
 @media only screen and (min-width: 641px){
 	.col2 li{
-		width: 40%;
+		width: 100%;
 		padding: 0 3%;
 		vertical-align: top;
 	}
@@ -434,7 +419,7 @@ section h2{
 	#mainnav li a{
 		position: relative;
 		display:block;
-		padding:15px 25px;
+		padding:15px 20px;
 		border-bottom: 1px solid #ccc;
 		color: #000;
 		font-weight: 400;
