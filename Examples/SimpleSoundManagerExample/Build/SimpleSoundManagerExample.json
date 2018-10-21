@@ -1,0 +1,13 @@
+{
+"companyName": "LightGive",
+"productName": "SimpleSoundManager",
+"dataUrl": "SimpleSoundManagerExample.data.unityweb",
+"asmCodeUrl": "SimpleSoundManagerExample.asm.code.unityweb",
+"asmMemoryUrl": "SimpleSoundManagerExample.asm.memory.unityweb",
+"asmFrameworkUrl": "SimpleSoundManagerExample.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}
