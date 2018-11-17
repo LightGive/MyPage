@@ -1,49 +1,21 @@
-#window 
+body 
 {
-	background-image:url("../images/background.png");
-	background-position:center center;
+	background-image: url("../images/background.png");
+	background-position:center;
 	background-size:128px 128px;
-	width:200%;
-	height:200%;
-	position:fixed;
+
 	top:0;
 	left:0;
 	right:0;
 	bottom:0;
-	-webkit-animation:infinitescroll 5s linear infinite;
-	-moz-animation:infinitescroll 5s linear infinite;
-	-ms-animation:infinitescroll 5s linear infinite;
-	-o-animation:infinitescroll 5s linear infinite;
-	animation:infinitescroll 5s linear infinite;
-	z-index:0;
-}
 
-@-webkit-keyframes infinitescroll 
-{
-	0% {-webkit-transform:translate3d(0, 0, 0);}
-	100% {-webkit-transform:translate3d(0, -128px, 0);}
-}
+align-content: center;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	width:100%;
+	height:100%;
+	position:fixed;
 
-@-moz-keyframes infinitescroll
-{
-	0% {-moz-transform:translate3d(0, 0, 0);}
-	100% {-moz-transform:translate3d(0, -128px, 0);}
-}
-
-@-ms-keyframes infinitescroll
-{
-	0% {-ms-transform:translate3d(0, 0, 0);}
-	100% {-ms-transform:translate3d(0, -128px, 0);}
-}
-
-@-o-keyframes infinitescroll
-{
-	0% {-o-transform:translate3d(0, 0, 0);}
-	100% {-o-transform:translate3d(0, -128px, 0);}
-}
-
-@keyframes infinitescroll 
-{
-	0% {transform:translate3d(0, 0, 0);}
-	100% {transform:translate3d(0, -128px, 0);}
+	background-color: #000000;
 }
